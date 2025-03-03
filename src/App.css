@@ -15,6 +15,7 @@
 
 .App-header {
   background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +28,186 @@
 .App-link {
   color: #61dafb;
 }
+.acc {
+  background-color: rgb(33, 33, 33);
+  height: 200px;
+  align-items: center;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+.head{
+  background-color: #1b1a19;
+  margin: 0;
+  padding: 20px;
+  color: #303338;
+}
+
+.acc:hover {
+  background: rgba(0, 0, 0, 0.692);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 6px 20px rgba(24, 24, 24, 0.4);
+  transform: scale(1.05);
+  color: black;
+  transition: all 0.1s ease-in-out;
+  padding: 30px;
+}
+.imagejuice{
+
+ height: 400px;
+  
+  
+}
+.imgshow img{
+  width: 100%;
+  object-fit: fill;
+  margin-top: 30px;
+}
+
+.align1{
+
+  margin-bottom: 40px;
+}
+.gap{
+
+  height: 60px;
+  background-color: #1b1a19;
+}
+#card5{
+  background-color: #1b1a19;
+  border-radius: 20px;
+  color: aliceblue;
+  border-color: aliceblue;
+  padding: 20px;
+  
+  
+}
+
+
+
+.card4{
+  margin-left: 10px;
+}
+.review1{
+  margin-top: 50px;
+}
+
+.review{
+
+  height: 300px;
+  
+  
+}
+.heading2-new{
+
+
+  text-align: center;
+}
+.follow{
+
+  text-align: center;
+}
+
+.bg2{
+  background-image: url("./components/col.webp");
+  background-size: cover;
+  background-position: center;
+  height: 625px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 250px;
+
+}
+.button3{
+
+  background-color: brown;
+}
+.card-wrapper{
+
+ 
+  
+  
+  position:absolute;
+  
+  align-items: center;
+  border-radius: 0px;
+  
+  top: 340px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image1{
+
+  background-image: url("./components/bg.avif");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+}
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
